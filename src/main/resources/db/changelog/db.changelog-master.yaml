@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: migrations/script-create-table-city.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migrations/script-fill-table.sql
+      relativeToChangeLogFile: true
